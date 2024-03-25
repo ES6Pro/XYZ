@@ -102,6 +102,9 @@ body {
 .home-img {
   max-width: 450px;
   margin-right: -20px;
+  opacity: 0;
+  animation: zoomIn 1s ease forwards;
+  animation-delay: 2s;
 }
 
 .social-media a {
@@ -189,3 +192,14 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
