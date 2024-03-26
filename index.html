@@ -10,62 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      /* Add your custom CSS styles and media queries here */
-      /* For mobile phones: */
-      @media only screen and (max-width: 600px) {
-        .header {
-          text-align: center;
-        }
-        .navbar {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        .navbar a {
-          margin: 10px 0;
-        }
-        .home {
-          display: flex;
-          flex-direction: column-reverse;
-          align-items: center;
-        }
-        .home-content {
-          text-align: center;
-        }
-        .home-img {
-          margin-top: 30px;
-        }
-      }
-
-      /* For tablets: */
-      @media only screen and (min-width: 601px) and (max-width: 1024px) {
-        .navbar a {
-          margin: 0 15px;
-        }
-      }
-
-      /* For laptops/desktops: */
-      @media only screen and (min-width: 1025px) {
-        .header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 20px 50px;
-        }
-        .navbar {
-          display: flex;
-          align-items: center;
-        }
-        .navbar a {
-          margin: 0 15px;
-        }
-      }
-    </style>
   </head>
 
   <body>
     <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
       <nav class="navbar">
         <a href="#" style="--i: 1" class="active">Home</a>
         <a href="#" style="--i: 2">About</a>
@@ -73,7 +23,6 @@
         <a href="#" style="--i: 4">Portfolio</a>
         <a href="#" style="--i: 5">Contact</a>
       </nav>
-      <a href="#" class="logo">Portfolio</a>
     </header>
 
     <section class="home">
@@ -89,14 +38,28 @@
         </p>
 
         <div class="social-media">
-          <a href="https://www.linkedin.com/in/hasancodex/" style="--i: 7"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/HasanCodeX" style="--i: 8"><i class="bx bxl-github"></i></a>
-          <a href="https://www.facebook.com/hasancodex/" style="--i: 9"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/hasancodex/" style="--i: 10"><i class="bx bxl-instagram"></i></a>
-          <a href="https://twitter.com/HasanCodeX" style="--i: 11"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/hasancodex/" style="--i: 7"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/HasanCodeX" style="--i: 8"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.facebook.com/hasancodex/" style="--i: 9"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/hasancodex/" style="--i: 10"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://twitter.com/HasanCodeX" style="--i: 11"
+            ><i class="bx bxl-twitter"></i
+          ></a>
         </div>
 
-        <a href="https://drive.usercontent.google.com/u/0/uc?id=1l8WGLULVCu68U7c7S0XGpwZ3t6Ku_Lpv&export=download" class="btn">Download Resume</a>
+        <a
+          href="https://drive.usercontent.google.com/u/0/uc?id=1l8WGLULVCu68U7c7S0XGpwZ3t6Ku_Lpv&export=download"
+          class="btn"
+          >Download Resume</a
+        >
       </div>
       <div class="home-img">
         <img src="img/hero.jpg" alt="" />
